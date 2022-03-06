@@ -1,0 +1,126 @@
+.cards {
+  background: #fff;
+  position: relative;
+  padding-top: 5%;
+  
+}
+
+h1 {
+  text-align: center;
+}
+.card-btn{
+  text-align: center;
+}
+
+.bookButton{
+  margin-top: 2%;
+  border: solid rgb(0, 87, 12) 10px;
+  background-color: unset;
+  color: rgb(76, 153, 4);
+  font-size: 50px;
+  padding: 2% 20%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.bookButton:hover{
+  color: rgb(0, 87, 12);
+  background-color:rgb(167, 167, 167);
+  transition: ease-in-out;
+}
+
+.imgOffer{
+  margin: 5% 0;
+  height: min-content;
+  width: 100%;
+}
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  bottom: 0;
+  padding:0 10%;
+}
+
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 40px;
+}
+
+.cards__items {
+  margin-bottom: 24px;
+}
+
+.cards__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+
+.cards__item__link {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item__pic-wrap {
+  z-index: 1;
+  position: relative;
+  width: 75%;
+  margin: 5% auto;
+  padding: 10%;
+  overflow: hidden;
+  color: #e4e4e4;
+  text-align: center;
+}
+
+
+.cards__item__img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+
+
+.cards__item__info {
+  padding: 20px 30px 30px;
+}
+
+.cards__item__text {
+  color: #ffffff;
+  background-color: rgb(93, 93, 93);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
