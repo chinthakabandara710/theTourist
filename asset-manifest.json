@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/theTourist/static/css/main.13342f28.css",
+    "main.js": "/theTourist/static/js/main.60e4c773.js",
+    "static/media/video-4.mp4": "/theTourist/static/media/video-4.8660ce393573bc17454a.mp4",
+    "static/media/offer.jpg": "/theTourist/static/media/offer.0eea9ca6a5de367e445c.jpg",
+    "static/media/img-2.jpg": "/theTourist/static/media/img-2.81798236357fb090dc15.jpg",
+    "static/media/img-1.jpg": "/theTourist/static/media/img-1.93fc1e64811561cab61a.jpg",
+    "index.html": "/theTourist/index.html",
+    "main.13342f28.css.map": "/theTourist/static/css/main.13342f28.css.map",
+    "main.60e4c773.js.map": "/theTourist/static/js/main.60e4c773.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13342f28.css",
+    "static/js/main.60e4c773.js"
+  ]
+}
