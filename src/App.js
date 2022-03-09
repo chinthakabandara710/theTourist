@@ -12,18 +12,18 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />        
+        <Navbar />
         <Switch>
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/Services'>
+          <Route path='/Services'>
             <Services />
           </Route>
-          <Route exact path='/OurGallery'>
+          <Route path='/OurGallery'>
             <OurGallery />
           </Route>
-          <Route exact path='/SignUp'>
+          <Route path='/SignUp'>
             <SignUp />
           </Route>
         </Switch>
